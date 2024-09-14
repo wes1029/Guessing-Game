@@ -1,0 +1,19 @@
+
+#include <stdio.h>
+#define NUMBER 69
+
+int main()
+{
+    int number = NUMBER;
+    int guess;
+    
+printf("Guess a Number: ");
+scanf("%d",&guess);
+
+if (guess == number)
+    printf("Correct Answer!");
+else
+    printf("Wrong Answer! Correct Answer is: %d", number);
+    
+  return 0;  
+}
